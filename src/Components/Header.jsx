@@ -13,8 +13,8 @@ function Header() {
         </div>
         <div className="hidden md:flex items-center space-x-8 mx-auto p-2 text-xl  font-serif">
 <Link to='/'>Home</Link>
-<Link to='/'>Product</Link>
-<Link to='/'>About</Link>
+<Link to='/Product'>Product</Link>
+<Link to='/About'>About</Link>
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 ">
   <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
 </svg>
@@ -33,8 +33,8 @@ function Header() {
         <div className={`md:hidden  p-10  transform shadow-lg  items-center space-y-8 mx-auto  text-xl  font-serif bg-white flex-col absolute left-44 top-10 h-screen w-96 ${!openmenu?"flex":"hidden"}`}>
           
 <Link to='/' className=''>Home</Link>
-<Link to='/'>Product</Link>
-<Link to='/'>About</Link>
+<Link to='/Product'>Product</Link>
+<Link to='/About'>About</Link>
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 ">
   <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
 </svg>
