@@ -14,19 +14,19 @@ function Product() {
             .then(res=>res.json())
             .then(json=>setdata(json))
     },[])
-    console.log(data)
+
   return (
     <div>
         <h1 className='text-center'>OurProduct</h1>
         <div className="flex items-center space-x-32 bg-slate-800 mx-10 h-8  justify-between">
-            <h1 className='text-white'>20 product</h1>
+            <h1 className='text-white'>{data.length} product</h1>
             <select >
                 <option >Reletive Product</option>
                 <option >Product [A-Z]</option>
             </select>
         </div>
 
-        <div className='grid grid-cols-4 space-x-6 px-6 '>
+        <div className='grid grid-cols-1 md:grid-cols-4 space-x-6 px-6 '>
      
       {data.map(item => (
         <div key={item.id.value} className="">

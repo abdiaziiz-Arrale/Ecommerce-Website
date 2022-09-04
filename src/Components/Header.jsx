@@ -4,7 +4,7 @@ import logo from '../assets/logo.png';
 import {} from "@heroicons/react/outline"
 function Header() {
   const [openmenu,setopenmenu]= useState(false);
-  console.log(openmenu)
+  
   return (
     <div  className="flex items-center justify-between bg-white">
         <div>
